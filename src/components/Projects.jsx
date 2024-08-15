@@ -1,5 +1,6 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -37,6 +38,7 @@ const Projects = () => {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-2 "><Link to={project.link} className="mb-2 text-purple-600">{project.link}</Link></p>
               {project.technologies.map((tech, index) => (
                 <span
                   className="mr-2  rounded bg-neutral-900 text-purple-800 px-2 py-1 text-sm font-medium"
