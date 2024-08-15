@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: "Frontend Developer",
     company: "Quality Kiosk",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines. Enhanced application performance by optimizing code and implementing best practices. Worked closely with UI/UX designers to create responsive and user-friendly interfaces. Played a key role in code reviews, ensuring high-quality code standards, and mentoring junior developers.`,
-    technologies: ["Javascript", "React.js", "Tailwind CSS", "MongoDB"],
+    technologies: ["Javascript", "React.js", "MongoDB",  "Tailwind CSS"],
   },
   {
     year: "2024 - 2024",
